@@ -261,13 +261,86 @@ a{
     }
 }
 
-
-
 .professional-experience::after{
     content: '';
     display: table;
     clear: both;
 }
+
+/* Acheivement contact*/
+
+.achievement-contact{
+    padding: 1% 7%;
+    background-color: #39a4ac;
+    color: white;
+}
+
+.contact input,textarea{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    text-align: center;
+    
+}
+.contact button{
+    border: none;
+    border-radius: 5px;
+    background-color: #052d2f;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contact-links{
+    text-align: center;
+}
+.media-buttons .btn{
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+
+}
+.media-buttons .btn:hover{
+    background-color: gray;
+}
+
+
+.achievement-contact::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*footer*/
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.footer-menu a{
+    display: block;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+.footer-menu a:hover{
+    color: gray;
+}
+
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 
 
 
